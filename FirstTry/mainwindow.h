@@ -16,6 +16,8 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <vector>
+#include <utility>
 using namespace std;
 
 extern int game_bet; //initialized globally for complete access everywhere
@@ -148,16 +150,29 @@ protected:
     int colorIndex,rankIndex;
     int usedCards_player[4][13] = {{0}}; //variable for drawn cards
     int usedCards_opponent[4][13] = {{0}};
+    vector<std::pair<int, int>> cards_vector; //vector that eliminates drawn cards
     bool hold=false;
+    int random;
     //Ui::MainWindow* ui;
 public:
-    Deck(Ui::MainWindow* ui, QSoundEffect* soundEffect) : Logic(ui, soundEffect) {}
+    Deck(Ui::MainWindow* ui, QSoundEffect* soundEffect) : Logic(ui, soundEffect) //initialize in constructor the vector with all values of possible pairs
+    {                                   //pairs of colors / rank (ex: (0,0) , (0,1) , ... (3,11) , (3,12) )
+        for (int i = 0; i <= 3; ++i)
+        {
+            for (int j = 0; j <= 12; ++j)
+            {
+                cards_vector.push_back(make_pair(i, j));
+            }
+        }
+    }
 
     void Randomize()
     {
         srand(time(0));  //setting seed to current time so we don't get same "random" results
-        colorIndex=rand()%4;   //generate random pos of a color from arrray
-        rankIndex = rand()% 13; //generate random pos of a rank from array
+        random = rand()%cards_vector.size();
+        colorIndex = cards_vector[random].first; //we set the index of color based on first element from vector pair
+        rankIndex = cards_vector[random].second;   //we set the index of color based on second element from vector pair
+        cards_vector.erase(cards_vector.begin() + random); //delete that pair from the vector so it's never drawn again
     }
 
     void Hold()
@@ -301,11 +316,6 @@ public:
     void drawCard()
     {
         Randomize();
-
-        while (usedCards_player[colorIndex][rankIndex] == 1 || usedCards_opponent[colorIndex][rankIndex] == 1)
-        {
-            Randomize();
-        }
 
         if (hold==false)
         {
