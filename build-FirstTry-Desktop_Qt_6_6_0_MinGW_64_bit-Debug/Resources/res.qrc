@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Sounds/loose.wav</file>
+        <file>Sounds/win.wav</file>
+        <file>Font/egypt.ttf</file>
+        <file>Font/peralta.ttf</file>
+        <file>Sounds/loop.wav</file>
+        <file>Sounds/door.wav</file>
+        <file>Sounds/draw_card1.wav</file>
+        <file>Sounds/draw_card2.wav</file>
+    </qresource>
+</RCC>
