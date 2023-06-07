@@ -30,7 +30,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">Dialog#Dialog {
-    border-image: url(&quot;C:/Users/qwert/Documents/Qt/FirstTry/images/bet.png&quot;) 0 0 0 0 stretch stretch
+    border-image: url(&quot;:/images/bet.png&quot;) 0 0 0 0 stretch stretch;
 }
 
 #label_3

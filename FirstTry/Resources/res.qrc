@@ -8,5 +8,59 @@
         <file>Sounds/door.wav</file>
         <file>Sounds/draw_card1.wav</file>
         <file>Sounds/draw_card2.wav</file>
+        <file>images/background.jpg</file>
+        <file>images/bet.png</file>
+        <file>images/cardClubs2.png</file>
+        <file>images/cardClubs3.png</file>
+        <file>images/cardClubs4.png</file>
+        <file>images/cardClubs5.png</file>
+        <file>images/cardClubs6.png</file>
+        <file>images/cardClubs7.png</file>
+        <file>images/cardClubs8.png</file>
+        <file>images/cardClubs9.png</file>
+        <file>images/cardClubs10.png</file>
+        <file>images/cardClubsA.png</file>
+        <file>images/cardClubsJ.png</file>
+        <file>images/cardClubsK.png</file>
+        <file>images/cardClubsQ.png</file>
+        <file>images/cardDiamonds2.png</file>
+        <file>images/cardDiamonds3.png</file>
+        <file>images/cardDiamonds4.png</file>
+        <file>images/cardDiamonds5.png</file>
+        <file>images/cardDiamonds6.png</file>
+        <file>images/cardDiamonds7.png</file>
+        <file>images/cardDiamonds8.png</file>
+        <file>images/cardDiamonds9.png</file>
+        <file>images/cardDiamonds10.png</file>
+        <file>images/cardDiamondsA.png</file>
+        <file>images/cardDiamondsJ.png</file>
+        <file>images/cardDiamondsK.png</file>
+        <file>images/cardDiamondsQ.png</file>
+        <file>images/cardHearts2.png</file>
+        <file>images/cardHearts3.png</file>
+        <file>images/cardHearts4.png</file>
+        <file>images/cardHearts5.png</file>
+        <file>images/cardHearts6.png</file>
+        <file>images/cardHearts7.png</file>
+        <file>images/cardHearts8.png</file>
+        <file>images/cardHearts9.png</file>
+        <file>images/cardHearts10.png</file>
+        <file>images/cardHeartsA.png</file>
+        <file>images/cardHeartsJ.png</file>
+        <file>images/cardHeartsK.png</file>
+        <file>images/cardHeartsQ.png</file>
+        <file>images/cardSpades2.png</file>
+        <file>images/cardSpades3.png</file>
+        <file>images/cardSpades4.png</file>
+        <file>images/cardSpades5.png</file>
+        <file>images/cardSpades6.png</file>
+        <file>images/cardSpades7.png</file>
+        <file>images/cardSpades8.png</file>
+        <file>images/cardSpades9.png</file>
+        <file>images/cardSpades10.png</file>
+        <file>images/cardSpadesA.png</file>
+        <file>images/cardSpadesJ.png</file>
+        <file>images/cardSpadesK.png</file>
+        <file>images/cardSpadesQ.png</file>
     </qresource>
 </RCC>

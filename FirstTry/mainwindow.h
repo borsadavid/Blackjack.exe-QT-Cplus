@@ -209,7 +209,7 @@ public:
         play_sound();
 
         // Create the image path based on color and rank
-        QString imagePath = "C:/Users/qwert/Documents/Qt/FirstTry/images/card" + color + rank + ".png";
+        QString imagePath = ":/images/card" + color + rank + ".png";
 
         // Load the card image
         QPixmap cardImage(imagePath);
@@ -237,7 +237,7 @@ public:
         play_sound();
 
         // Create the image path based on color and rank
-        QString imagePath = "C:/Users/qwert/Documents/Qt/FirstTry/images/card" + color + rank + ".png";
+        QString imagePath = ":/images/card" + color + rank + ".png";
 
         // Load the card image
         QPixmap cardImage(imagePath);

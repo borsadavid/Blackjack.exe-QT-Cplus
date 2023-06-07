@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1705</width>
-    <height>937</height>
+    <height>994</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -27,7 +27,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QMainWindow#MainWindow {
- border-image: url(&quot;C:/Users/qwert/Documents/Qt/FirstTry/images/background.jpg&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;:/images/background.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 
 QMenuBar{
